@@ -1,14 +1,7 @@
-'use client'
-import React from "react";
-import Navbar from "../components/Navbar"
-import Home1 from "../components/Home"
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <>
-         <Navbar/>
-          <Home1/>
-    </>
-   
+   <> Hola xdd</> 
   );
 }
