@@ -1,7 +1,15 @@
-import Image from "next/image";
+'use client'
+
+import Navbar from "../components/Navbar";
+import Home1 from "../components/Home"
+import Process from "../components/Process"
 
 export default function Home() {
   return (
-   <> Hola xdd</> 
+   <>
+    <Navbar/>
+    <Home1/>
+    <Process />
+   </>
   );
 }
