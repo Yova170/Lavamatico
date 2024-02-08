@@ -1,7 +1,8 @@
 import Image from "next/image";
+import Example from "./process";
 
 export default function Home() {
-  return (
-   <> Hola xdd</> 
+  return ( 
+   <Example></Example>
   );
 }
